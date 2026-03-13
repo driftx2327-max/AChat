@@ -1,0 +1,44 @@
+body{
+font-family: Arial;
+background:#111;
+color:#ffffff;
+text-align:center;
+margin:0;
+padding:20px;
+}
+
+h1,h2{
+color:#00ffcc;
+}
+
+#chat{
+height:350px;
+overflow:auto;
+border:1px solid #444;
+margin:20px auto;
+padding:10px;
+background:#1e1e1e;
+width:80%;
+}
+
+input{
+padding:10px;
+width:60%;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+border:none;
+border-radius:5px;
+background:#00ffcc;
+color:black;
+font-weight:bold;
+cursor:pointer;
+}
+
+button:hover{
+background:#00ccaa;
+}
