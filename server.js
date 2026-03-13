@@ -11,6 +11,8 @@ const io = new Server(server)
 
 app.use(express.static("public"))
 
+const PORT = process.env.PORT || 3000
+
 let maleQueue = []
 let femaleQueue = []
 let randomQueue = []
@@ -156,8 +158,8 @@ io.on("connection", (socket) => {
 
 })
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
 
-  console.log("AChats server running")
+  console.log("AChats running on port " + PORT)
 
 })
